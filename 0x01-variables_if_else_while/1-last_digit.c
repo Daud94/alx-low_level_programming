@@ -18,7 +18,7 @@ int main(void) /* The function returns void */
 	re = n % 10;
 	if (re > 5)
 	{
-		printf("%s %d is %d and is greater 5\n", "Last digit of", n, re);
+		printf("%s %d is %d and is greater than 5\n", "Last digit of", n, re);
 	}
 	else if (re == 0)
 	{
