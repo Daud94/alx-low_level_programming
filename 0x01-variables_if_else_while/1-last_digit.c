@@ -24,7 +24,7 @@ int main(void) /* The function returns void */
 	{
 		printf("%s %d is %d and is 0\n", "Last digit of", n, re);
 	}
-	else if (re < 6 && re > 0)
+	else if (re < 6 && re != 0)
 	{
 		printf("%s %d is %d and is less than 6 and not 0\n", "Last digit of", n, re);
 	}
