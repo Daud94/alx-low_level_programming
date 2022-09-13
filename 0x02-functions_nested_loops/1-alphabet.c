@@ -4,10 +4,13 @@
  * main - Main function entry point
  * Return: Always zero
  */
-int main(void) /* The function returns void */
+void print_alphabet(void) /* The function returns void */
 {
-	print_alphabet();
-	_putchar('\n');
+	char ch = 'a';
+
+	for (; ch <= 'z'; ch ++)
+	{
+		_putchar(ch);
+	}
 	return (0);
-	
 }

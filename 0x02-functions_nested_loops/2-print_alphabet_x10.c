@@ -4,9 +4,15 @@
  * main - Main function entry point
  * Return: Always zero
  */
-int main(void) /* The function returns void */
+void print_alphabet_x10(void)
 {
-	print_alphabet_x10();
+	int i = 0;
+
+	for (; i <=9; i++)
+	{
+		print_alphabet();
+		_putchar('\n');
+	}
 	_putchar('\n');
 	return (0);
 	
