@@ -13,8 +13,8 @@ void print_alphabe4_x10(void) /* The function returns void */
 	{
 		for (ch = 'a'; ch <= 'z'; ch++)
 		{
-			-putchar(ch);
+			_putchar(ch);
 		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
