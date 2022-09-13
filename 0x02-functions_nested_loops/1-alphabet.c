@@ -4,7 +4,7 @@
  * main - Main function entry point
  * Return: Always zero
  */
-int main(void) /* The function returns void */
+void print_alphabet(void) /* The function returns void */
 {
 	char ch = 'a';
 
