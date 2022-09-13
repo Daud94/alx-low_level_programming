@@ -13,6 +13,4 @@ void print_alphabet(void) /* The function returns void */
 		_putchar(ch);
 	}
 	_putchar('\n');
-
-	return (0);
 }
