@@ -16,7 +16,6 @@ int print_sign(int n) /* The function returns void */
 	{
 		_putchar('0');
 		return (0);
-		
 	}
 	if (n < 0)
 	{
