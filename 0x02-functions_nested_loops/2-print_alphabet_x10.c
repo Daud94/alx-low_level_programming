@@ -7,11 +7,14 @@
 void print_alphabe4_x10(void) /* The function returns void */
 {
 	int i = 0;
+	char ch = 'a';
 
-	for (; i < 9; i++)
+	for (i = 0; i < 9; i++)
 	{
-		print_alphabet();
-		_putchar('\n');
+		for (ch = 'a'; ch <= 'z'; ch++)
+		{
+			-putchar(ch);
+		}
 	}
 	_putchar('\n');
 }
