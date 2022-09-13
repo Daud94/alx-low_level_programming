@@ -1,4 +1,4 @@
-#inlude "main.h"
+#include "main.h"
 
 /**
  * main - Main function entry point
@@ -6,14 +6,8 @@
  */
 int main(void) /* The function returns void */
 {
-	char str_arr[8] = "_putchar";
-	int i = 0;
-
-	for (i = 0; i < 8; i++)
-	{
-		_putchar(str_arr[i]);
-	}
+	print_alphabet();
 	_putchar('\n');
-
 	return (0);
+	
 }
